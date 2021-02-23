@@ -11,3 +11,5 @@
       when: server_type == 'unix'
     - debug: msg="Print this only if Server type is Linux"
       when: server_type == 'Linux'
+
+#conditionals in ansible aid in decision taking based to stated conditions
